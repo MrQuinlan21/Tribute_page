@@ -1,0 +1,71 @@
+/*General style*/
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #424549;
+}
+
+/*Body Style(Intro)*/
+h1{
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+h2{
+    color: whitesmoke;
+    text-align: center;
+    margin: 1em;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+
+#container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#authorimg{
+    width: 50em;
+}
+
+p{
+    color: whitesmoke;
+}
+
+hr{
+    color: lightgray;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*Content*/
+.picture{
+    display: flex;
+    height: 25rem;
+    width: auto;
+}
+
+.hp-container{
+    display: flex;
+}
+
+.text{
+    display: flex;
+    margin: 1em 20%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0;
+}
+
+.p{
+    text-align: start;   
+    margin-right: 10em; 
+    padding: 1rem;
+}
